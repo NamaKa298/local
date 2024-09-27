@@ -1,0 +1,30 @@
+.ssu-banner {
+    color: black;
+    padding: 12px;
+    border-bottom: solid 3px white;
+    background: linear-gradient(90deg, #d8b041,#ff5561,#c136d2);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}                                    
+
+.ssu-logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    left: 0;
+}
+
+.ssu-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ssu-button {
+    flex: 1;
+    margin: 5px;
+    font-size: large;
+    padding: 10px;
+    box-sizing: border-box;
+    border-color: transparent;
+    background-color: transparent;
+    color: white;
+}

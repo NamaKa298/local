@@ -1,0 +1,36 @@
+.createAccount {
+    display: flex;
+    flex-direction: line;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: center;
+    height: auto;
+    background-color: #5c5a5a12;
+    border: 2px solid #000;
+    margin: 0 0 0 0;
+    padding: 30px 100px 100px 100px;
+    border-radius: 8%;
+    justify-content: space-between;
+}
+.createAccount h2{
+    text-align: center;
+    align-items: center;
+}
+.createAccount form p,
+.createAccount form input {
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+.createAccount button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.createAccount form p:nth-child(odd),
+.createAccount form input:nth-child(odd) {
+    margin-right: 4%;
+}

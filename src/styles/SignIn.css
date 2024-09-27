@@ -1,0 +1,78 @@
+.SignIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    background-color: #5c5a5a12;
+    border: 2px solid #000;
+    margin: 0 0 0 0;
+    padding: 30px 30px 30px 30px;
+    border-radius: 8%;
+    font-size: 16px;
+}
+
+.SignIn button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.remember-forgot-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.remember-me {
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.remember-me input {
+    margin-right: 5px; /* Ajoute un espace entre la case à cocher et le texte */
+}
+
+#forgot{
+    background-color: transparent;
+    color: #f0ad4e;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: right;
+    display: block;
+
+}
+
+#notanaccount {
+    background-color: transparent;
+    border: none;
+    padding: auto;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+}
+
+#forgot:hover {
+    text-decoration: underline; /* Ajouter un soulignement au survol */
+    color: #ff5561;
+}
+
+#notanaccount:hover {
+    text-decoration: underline; /* Ajouter un soulignement au survol */
+}
+
+h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+}
